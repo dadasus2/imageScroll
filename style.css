@@ -51,12 +51,3 @@ h1 {
     font-size: 500px;
     line-height: 400px;
 }
-
-h1:nth-child(even) {
-    -webkit-transform: rotateY(180deg);
-    -moz-transform: rotateY(180deg);
-    -o-transform: rotateY(180deg);
-    -ms-transform: rotateY(180deg);
-    unicode-bidi: bidi-override;
-    direction: rtl;
-}
