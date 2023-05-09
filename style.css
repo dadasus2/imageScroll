@@ -107,8 +107,4 @@ h1:nth-child(1)::selection {
         font-size: 120px;
     }
 
-    .img img {
-        width: 200px;
-        height: 300px;
-    }
 }
