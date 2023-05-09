@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    height: 100vh;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.box:nth-child(1) {
+    background-color: rgb(241, 248, 174);
+}
+
+.box:nth-child(2) {
+    background-color: rgb(141, 190, 253);
+}
+
+.box:nth-child(3) {
+    background-color: rgb(253, 141, 141);
+}
+
+.img {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img img {
+    width: 400px;
+    height: 600px;
+}
