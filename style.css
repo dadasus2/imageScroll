@@ -51,3 +51,18 @@ h1 {
     font-size: 500px;
     line-height: 400px;
 }
+
+h1:nth-child(1)::selection {
+    background-color: rgba(0, 5, 2, 0.411);
+    color: white;
+}
+
+.n h1::selection {
+    background-color: rgba(0, 5, 2, 0.411);
+    color: white;
+}
+
+.s h1::selection {
+    background-color: rgba(0, 5, 2, 0.411);
+    color: white;
+}
