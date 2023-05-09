@@ -66,3 +66,49 @@ h1:nth-child(1)::selection {
     background-color: rgba(0, 5, 2, 0.411);
     color: white;
 }
+
+@media(max-width:1550px) {
+    h1 {
+        font-size: 400px;
+    }
+}
+
+@media(max-width:1300px) {
+    h1 {
+        font-size: 300px;
+    }
+
+    .img img {
+        width: 300px;
+        height: 450px;
+    }
+}
+
+@media(max-width:1000px) {
+    .n h1 {
+        font-size: 200px;
+    }
+
+    .s h1 {
+        font-size: 200px;
+    }
+}
+
+@media(max-width:650px) {
+    h1 {
+        font-size: 200px;
+    }
+
+    .s h1 {
+        font-size: 120px;
+    }
+
+    .n h1 {
+        font-size: 120px;
+    }
+
+    .img img {
+        width: 200px;
+        height: 300px;
+    }
+}
