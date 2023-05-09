@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+body {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+
 .box {
     height: 100vh;
     position: relative;
@@ -10,18 +15,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .box:nth-child(1) {
-    background-color: rgb(241, 248, 174);
+    background-color: rgb(150, 168, 250);
 }
 
 .box:nth-child(2) {
-    background-color: rgb(141, 190, 253);
+    background-color: rgb(77, 122, 88);
 }
 
 .box:nth-child(3) {
-    background-color: rgb(253, 141, 141);
+    background-color: rgb(102, 102, 102);
 }
 
 .img {
@@ -36,9 +42,21 @@
     height: 600px;
 }
 
+
+
 h1 {
     color: white;
     font-family: sans-serif;
     font-weight: bold;
     font-size: 500px;
+    line-height: 400px;
+}
+
+h1:nth-child(even) {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    unicode-bidi: bidi-override;
+    direction: rtl;
 }
